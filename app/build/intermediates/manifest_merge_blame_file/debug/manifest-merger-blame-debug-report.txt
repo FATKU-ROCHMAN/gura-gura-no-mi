@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azhar.gempadetector"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+19
+20    <application
+20-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:7:5-31:19
+21        android:allowBackup="true"
+21-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/df2ac4fe6b88cbdd1c862077d2fdf1ec/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/dot"
+24-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:9:9-35
+25        android:label="@string/app_name"
+25-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/dot"
+26-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:11:9-40
+27        android:supportsRtl="true"
+27-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme"
+29-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:13:9-40
+30        android:usesCleartextTraffic="true" >
+30-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:14:9-44
+31        <activity android:name="com.azhar.gempadetector.MainActivity" >
+31-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:15:9-21:20
+31-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:15:19-47
+32            <intent-filter>
+32-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:16:13-20:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:17:17-69
+33-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:17:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:19:17-77
+35-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:19:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:23:9-25:69
+40            android:name="com.google.android.gms.version"
+40-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:24:13-58
+41            android:value="@integer/google_play_services_version" />
+41-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:25:13-66
+42        <meta-data
+42-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:27:9-29:44
+43            android:name="com.google.android.geo.API_KEY"
+43-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:28:13-58
+44            android:value="YOUR API KEY" />
+44-->/home/fatku/PROJECK AS/InformasiGempa-master/GempaDetector/app/src/main/AndroidManifest.xml:29:13-41
+45
+46        <!-- Needs to be explicitly declared on P+ -->
+47        <uses-library
+47-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+48            android:name="org.apache.http.legacy"
+48-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+49            android:required="false" />
+49-->[com.google.android.gms:play-services-maps:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/71bf40f63a168d6b11cbe0053ba24210/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/bc16083ed528e87b42564933ce53a5d1/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/bc16083ed528e87b42564933ce53a5d1/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/bc16083ed528e87b42564933ce53a5d1/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] /home/fatku/.gradle/caches/transforms-2/files-2.1/bc16083ed528e87b42564933ce53a5d1/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+55    </application>
+56
+57</manifest>
